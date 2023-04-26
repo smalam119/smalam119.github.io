@@ -10,7 +10,7 @@ function Header() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return (
-        <VStack>
+        <VStack pb={isNotSmallerScreen ? 0 : 20}>
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
                 spacing="100px" p={isNotSmallerScreen ? "20" : "0"} pb={"0"}
                 alignSelf="flex-start">

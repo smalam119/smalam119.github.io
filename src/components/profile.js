@@ -74,7 +74,7 @@ function Profile() {
 
             </Flex>
             <Flex
-                direction={{ base: 'column-reverse', md: 'row' }}
+                direction={{ base: 'column', md: 'row' }}
                 justify="center"
                 gap={6}
                 pb={6}
@@ -117,7 +117,7 @@ function Profile() {
                 </Link>
             </Flex>
             <Flex
-                direction={{ base: 'column-reverse', md: 'row' }}
+                direction={{ base: 'column', md: 'row' }}
                 justify="center"
                 gap={6}
                 pb={12}
