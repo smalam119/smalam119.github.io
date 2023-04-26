@@ -2,7 +2,7 @@
   "name": "sayed-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://smalam119.github.io/",
+  "homepage": "https://smalam119.github.io/",
   "dependencies": {
     "@chakra-ui/react": "^2.5.4",
     "@emotion/react": "^11.10.6",
