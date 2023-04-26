@@ -19,6 +19,8 @@ function Profile() {
             <Flex
                 direction={{ base: 'column', md: 'row' }}
                 justify="center"
+                gap={6}
+                pb={6}
             >
                 <Link _hover="{ text-decoration: none; }" href='https://www.mindvalley.com/apps' isExternal>
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="purple.500" h="250px" w="250px" justify="center" _hover={{ bg: "blue.600" }} >
@@ -74,6 +76,8 @@ function Profile() {
             <Flex
                 direction={{ base: 'column-reverse', md: 'row' }}
                 justify="center"
+                gap={6}
+                pb={6}
             >
                 <Link _hover="{ text-decoration: none; }" href='https://www.bdjobs.com/apps/ios/index.html' isExternal>
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} bg="pink.500" h="250px" w="250px" justify="center" _hover={{ bg: "teal.700" }}>
@@ -115,7 +119,8 @@ function Profile() {
             <Flex
                 direction={{ base: 'column-reverse', md: 'row' }}
                 justify="center"
-                pb={8}
+                gap={6}
+                pb={12}
             >
                 <Link _hover="{ text-decoration: none; }" href='' isExternal>
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
