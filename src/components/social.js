@@ -18,7 +18,7 @@ function Social() {
             </HStack>
             <Center pb={5}>
                 <Button mt={16} colorScheme="blue" align="center" onClick={
-                    () => window.location = 'mailto:yourmail@domain.com'
+                    () => window.location = 'mailto:smalam119@gmail.com'
                 }>Contact Me
                 </Button>
             </Center>
