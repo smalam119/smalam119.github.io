@@ -25,7 +25,7 @@ function App() {
         <Link _hover="{ text-decoration: none; }" href='https://medium.com/@smalam119' isExternal>
           <IconButton ml={2} icon={<SiMedium />} isRound="true"></IconButton>
         </Link>
-        <Link _hover="{ text-decoration: none; }" href='https://drive.google.com/file/d/1VGFeOqB8ssysfaH4B4IJdOc8sZJA-bhc/view?usp=sharing' isExternal>
+        <Link _hover="{ text-decoration: none; }" href='https://drive.google.com/file/d/1KpkqG8soxJXNagmpcwIq4C3AhVtYFQGY/view?usp=sharing' isExternal>
           <Button w={90} ml={5} colorScheme='blue' variant='outline'>Resume</Button>
         </Link>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}> </IconButton>
